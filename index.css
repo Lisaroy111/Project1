@@ -1,11 +1,17 @@
 :root {
     --white-font: #FFFFFF;
     --black-font: #000000;
-    --color1: #42F2F7;
-    --color2: #46ACC2;
-    --color3: #498C8A;
-    --color4: #4B6858;
-    --color5: #276298;
+    --color1: #AFCBF4;
+    --color2: #B6E5F0;
+    --color3: #30B0B9;
+    --color4: #3C6E71;
+    --color5: #284B63;
 
 }
 
+.main-container {
+    max-width: 72em; 
+    color: var(--black-font);
+    margin:0 auto;
+
+}
