@@ -24,6 +24,18 @@
     padding: 0.5em;
 }
 
+.banner-title {
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.banner-subtitle {
+    font-size: 4em;
+
+}
+
+
 .first-container {
     background-color: var(--color1)
     
