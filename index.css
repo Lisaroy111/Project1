@@ -24,3 +24,12 @@
     padding: 0.5em;
 }
 
+.first-container {
+    background-color: var(--color1)
+
+}
+
+.second-container {
+    background-color: var(--color1)
+
+}
