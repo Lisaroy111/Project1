@@ -26,6 +26,7 @@
 
 .first-container {
     background-color: var(--color1)
+    
 
 }
 
@@ -34,9 +35,15 @@
 
 }
 
+.image1-container {
+    max-width: 32em;
 
+}
 
+.image2-container {
+    max-width: 32em;
 
+}
 
 #banner  {
     grid-area: bann;
@@ -169,6 +176,7 @@
         "con5 con5 con5 con5" minmax(2em, auto)
         " .    .    .    .  " minmax(1em, auto)
         "img8 img8 img9 img9" minmax(5em, auto)
+        " .    .    .    .  " minmax(1em, auto)
         "ig10 ig10 ig11 ig11" minmax(5em, auto)
         " .    .    .    .  " minmax(1em, auto)
         "con6 con6 con6 con6" minmax(15em, auto)
@@ -181,7 +189,8 @@
 @media (min-width:50em) {
     .main-container {
     grid-template: 
-
+    "bann bann bann bann" minmax(4em, auto)
+    " .    .    .    .  " minmax(1em, auto)
     
     
     }
@@ -194,7 +203,8 @@
 @media (min-width:75em) {
     .main-container {
     grid-template: 
-
+    "bann bann bann bann" minmax(4em, auto)
+    " .    .    .    .  " minmax(1em, auto)
     
     
     }
