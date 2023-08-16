@@ -15,3 +15,11 @@
     margin:0 auto;
 
 }
+
+.banner {
+    background-color: var(--color3);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    min-height: 4em;
+    padding: 0.5em;
+}
