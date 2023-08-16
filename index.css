@@ -33,3 +33,171 @@
     background-color: var(--color1)
 
 }
+
+
+
+
+
+#banner  {
+    grid-area: bann;
+    }
+    
+    #logoimage1 {
+    grid-area: lgi1;
+    }
+    
+    #contianer1 {
+    grid-area: con1;
+    }
+     
+    #container2 {
+    grid-area: con2;
+    }
+    
+    #image1 {
+    grid-area: img1;
+    }
+    
+    #image2 {
+    grid-area: img2;
+    }
+    
+    #image3 {
+    grid-area: img3;
+    }
+    
+    #textbox1 {
+    grid-area: ttb1;
+    }
+    
+    #monitor-pic {
+    grid-area: mop1;
+    }
+   
+    #title2 {
+    grid-area: ttl2;
+    }
+    
+    #image5 {
+    grid-area: img5;
+    }
+    
+    #image6 {
+    grid-area: img6;
+    }
+    
+    #image7 {
+    grid-area: img7;
+    }
+    
+    #container3 {
+    grid-area: con3;
+    }
+    
+    #container4 {
+    grid-area: con4;
+    }
+    
+    #container5 {
+    grid-area: con5;
+    }
+    
+    #image8 {
+    grid-area: img8;
+    }
+    
+    #image9 {
+    grid-area: img9;
+    }
+    
+    #image10 {
+    grid-area: ig10;
+    }
+    
+    #image11 {
+    grid-area: ig11;
+    }
+    
+    #container6 {
+    grid-area: con6;
+    }
+    
+    #container7 {
+    grid-area: con7;
+    }
+    
+    
+    
+    .main-container {
+        display: grid;
+        column-gap: 1em; 
+    }
+
+
+.main-container {
+    grid-template: 
+        "bann bann bann bann" minmax(3em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "lgi1 lgi1 lgi1 lgi1" minmax(4em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con1 con1 con1 con1" minmax(2em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con2 con2 con2 con2" minmax(2em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img1 img1 img1 img1" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img2 img2 img2 img2" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img3 img3 img3 img3" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "ttb1 ttb1 ttb1 ttb1" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "mop1 mop1 mop1 mop1" minmax(30em, auto)
+        " .    .    .    .  " minmax(2em, auto)
+        "ttl2 ttl2 ttl2 ttl2" minmax(3em,auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img5 img5 img5 img5" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img6 img6 img6 img6" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img7 img7 img7 img7" minmax(6em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con3 con3 con3 con3" minmax(2em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con4 con4 con4 con4" minmax(2em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con5 con5 con5 con5" minmax(2em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "img8 img8 img9 img9" minmax(5em, auto)
+        "ig10 ig10 ig11 ig11" minmax(5em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con6 con6 con6 con6" minmax(15em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "con7 con7 con7 con7" minmax(13em, auto)
+
+
+}
+
+@media (min-width:50em) {
+    .main-container {
+    grid-template: 
+
+    
+    
+    }
+
+
+}
+
+
+
+@media (min-width:75em) {
+    .main-container {
+    grid-template: 
+
+    
+    
+    }
+
+
+}
