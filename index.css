@@ -14,7 +14,6 @@
     color: var(--black-font);
     margin: 0 auto;
     column-gap: 1em;
-    margin: right 4em;
 
 }
 
@@ -26,7 +25,7 @@
     padding: 0.5em;
 }
 
-.logo-image1 {
+.logoimage {
     min-height: 4em;
     display: flex;
     justify-content: center;
@@ -69,7 +68,7 @@
     
 }
 
-@media (max-width: 50em) {
+@media (max-width: 72em) {
     .monitorpic-container {
         flex-direction: column;
     }
@@ -80,7 +79,6 @@
         align-items: center;
     }
     }
-    
 
 .third-container {
     text-align: center;
@@ -103,10 +101,11 @@
     flex-flow: row;
     border-radius: 2em;
     
-
 }
 
-
+.monitorpic-image { 
+    border-radius: 2em;
+}
 
 .monitorpic-blurb {
     font-size: 1.5em;
@@ -147,6 +146,15 @@
     line-height: 2em;
 }
 
+.credits {
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--color5);
+    font-size: 1.5em;
+    color: var(--white-font);
+    border-radius: 1.5em;
+}
+
 .creds {
     align-items: center;
 
@@ -156,7 +164,7 @@
     grid-area: bann;
 }
     
-#logoimage {
+#logo-image {
     grid-area: lgi1;
 }
 
@@ -169,14 +177,6 @@
 }
 
 
-#container-A {
-    grid-area: conA;
-}
-
-#image-container1 {
-    grid-area:img1
-
-}
 #image1 {
     grid-area: img1;
 }
@@ -202,10 +202,6 @@
 }
   
 
-#containerB {
-    grid-area:conB;
-
-}
 #image5 {
     grid-area: img5;
 }
@@ -266,9 +262,9 @@
         " .    .    .    .  " minmax(1em, auto)
         "lgi1 lgi1 lgi1 lgi1" minmax(4em, auto)
         " .    .    .    .  " minmax(1em, auto)
-        "con1 con1 con1 con1" minmax(2em, auto)
+        "con1 con1 con1 con1" minmax(3em, auto)
         " .    .    .    .  " minmax(0.5em, auto)
-        "con2 con2 con2 con2" minmax(2em, auto)
+        "con2 con2 con2 con2" minmax(3em, auto)
         " .    .    .    .  " minmax(1em, auto)
         "img1 img1 img1 img1" minmax(6em, auto)
         " .    .    .    .  " minmax(1em, auto)
@@ -290,10 +286,6 @@
         " .    .    .    .  " minmax(1em, auto)
         "con3 con3 con3 con3" minmax(2em, auto)
         " .    .    .    .  " minmax(1em, auto)
-        "con4 con4 con4 con4" minmax(2em, auto)
-        " .    .    .    .  " minmax(1em, auto)
-        "con5 con5 con5 con5" minmax(2em, auto)
-        " .    .    .    .  " minmax(1em, auto)
         "img8 img8 img8 img8" minmax(5em, auto)
         " .    .    .    .  " minmax(1em, auto)
         "img9 img9 img9 img9" minmax(5em, auto)
@@ -306,10 +298,9 @@
         " .    .    .    .  " minmax(1em, auto)
         "con7 con7 con7 con7" minmax(10em, auto)
         " .    .    .    .  " minmax(2em, auto)
-        "cree cree cree cree" minmax(5em, auto)
-        " .    .    .    .  " minmax(2em, auto)
-        "cred cred cred cred" minmax(5em, auto)
-
+        "cree cree cree cree" minmax(2em, auto)
+        " .    .    .    .  " minmax(1em, auto)
+        "cred cred cred cred" minmax(10em, auto)
 
 }
 
@@ -337,10 +328,6 @@
         " .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "con3 con3 con3 con3 con3 con3 con3 con3" minmax(2em, auto)
         " .    .    .    .    .    .    .    .  " minmax(1em, auto)
-        "con4 con4 con4 con4 con4 con4 con4 con4" minmax(2em, auto)
-        " .    .    .    .    .    .    .    .  " minmax(1em, auto)
-        "con5 con5 con5 con5 con5 con5 con5 con5" minmax(2em, auto)
-        " .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "img8 img8 img8 img8 img9 img9 img9 img9" minmax(5em, auto)
         " .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "ig10 ig10 ig10 ig10 ig11 ig11 ig11 ig11" minmax(5em, auto)
@@ -349,8 +336,8 @@
         " .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "con7 con7 con7 con7 con7 con7 con7 con7" minmax(13em, auto)
         " .    .    .    .    .    .    .    .  " minmax(2em, auto)
-        "cree cree cree cree cree cree cree cree`" minmax(10em, auto)
-        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "cree cree cree cree cree cree cree cree" minmax(2em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "cred cred cred cred cred cred cred cred" minmax(10em, auto)
     
     }
@@ -373,15 +360,11 @@
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "mop1 mop1 mop1 mop1 mop1 mop1 mop1 mop1 mop1 mop1 mop1 mop1" minmax(30em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
-        "ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2" minmax(3em,auto)
+        "ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2 ttl2" minmax(3em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
-        "img5 img5 img5  .    .img6 img6 img6.    .   img7 img7 img7" minmax(6em, auto)
+        "img5 img5 img5 img5 img6 img6 img6 img6 img7 img7 img7 img7" minmax(6em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "con3 con3 con3 con3 con3 con3 con3 con3 con3 con3 con3 con3" minmax(2em, auto)
-        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
-        "con4 con4 con4 con4 con4 con4 con4 con4 con4 con4 con4 con4" minmax(2em, auto)
-        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
-        "con5 con5 con5 con5 con5 con5 con5 con5 con5 con5 con5 con5" minmax(2em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "img8 img8 img8 img9 img9 img9 ig10 ig10 ig10 ig11 ig11 ig11" minmax(5em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
@@ -389,8 +372,8 @@
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "con7 con7 con7 con7 con7 con7 con7 con7 con7 con7 con7 con7" minmax(10em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
-        "cree cree cree cree cree cree cree cree cree cree cree cree" minmax(10em, auto)
-        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "cree cree cree cree cree cree cree cree cree cree cree cree" minmax(2em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "cred cred cred cred cred cred cred cred cred cred cred cred" minmax(10em, auto)
     
     }
