@@ -28,6 +28,8 @@
 
 .logo-image1 {
     min-height: 4em;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding:2em;
 }
@@ -36,21 +38,27 @@
 .first-container {
     background-color: var(--color1);
     padding: 1em;
+    text-align: center;
     
 }
 
 .second-container {
     background-color: var(--color1);
     padding: 1em;
+    text-align: center;
 
 }
 
 .image1-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
+
 .image2-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -61,38 +69,24 @@
     
 }
 
-
-.monitorpic-container {
-    display: flex;
-    flex-direction: row;
-
-}
-
 @media (max-width: 50em) {
     .monitorpic-container {
+        flex-direction: column;
+    }
+    .image1-container {
+        display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
     }
     
 
-    }
-
-
-   
-.containerB {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.containers3 {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+.third-container {
     text-align: center;
     font-size: 2em;
 
 }
-
 
 
 .textbox-container {
@@ -102,15 +96,17 @@
 
 }
 
-
 .monitorpic-container {
     background-color: var(--color1);
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-flow: row;
     border-radius: 2em;
-    overflow: hidden;
+    
 
 }
+
+
 
 .monitorpic-blurb {
     font-size: 1.5em;
@@ -123,46 +119,44 @@
     font-size: 2em;
 }
 
-
 .image3-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
 .image4-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
-    }
+}
 
 .sixth-container {
     background-color: var(--color1);
     border-radius: 1.5em;
     text-align: center;
-}
-
-.container-6 {
-    font-size: 1em;
-    line-height: 1em;
-
-}
-
-.container-7 {
-    font-size: 1em;
-    line-height: 1em;
-
+    font-size: 1.5em;
+    line-height: 2em;
 }
 
 .seventh-container {
     background-color: var(--color1);
     border-radius: 1.5em;
     text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.creds {
+    align-items: center;
+
 }
 
 #banner  {
     grid-area: bann;
 }
     
-#logo-image1 {
+#logoimage {
     grid-area: lgi1;
 }
 
@@ -224,19 +218,9 @@
     grid-area: img7;
 }
     
-#containers3 {
+#container3 {
     grid-area: con3;
 }                               
-                                    
-#containerC {
-    grid-area: conC;
-
-} 
-
-#containerD {
-    grid-area: conD;
-
-} 
 
 #image8 {
     grid-area: img8;
@@ -263,9 +247,12 @@
 }
     
 #credits {
-    grid-area:cred;
+    grid-area: cree;
 }
 
+#cred {
+    grid-area: cred;
+}
     
 .main-container {
     display: grid;
@@ -318,6 +305,10 @@
         "con6 con6 con6 con6" minmax(10em, auto)
         " .    .    .    .  " minmax(1em, auto)
         "con7 con7 con7 con7" minmax(10em, auto)
+        " .    .    .    .  " minmax(2em, auto)
+        "cree cree cree cree" minmax(5em, auto)
+        " .    .    .    .  " minmax(2em, auto)
+        "cred cred cred cred" minmax(5em, auto)
 
 
 }
@@ -357,7 +348,10 @@
         "con6 con6 con6 con6 con6 con6 con6 con6" minmax(15em, auto)
         " .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "con7 con7 con7 con7 con7 con7 con7 con7" minmax(13em, auto)
-    
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "cree cree cree cree cree cree cree cree`" minmax(10em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "cred cred cred cred cred cred cred cred" minmax(10em, auto)
     
     }
 }
@@ -394,7 +388,10 @@
         "con6 con6 con6 con6 con6 con6 con6 con6 con6 con6 con6 con6" minmax(10em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(1em, auto)
         "con7 con7 con7 con7 con7 con7 con7 con7 con7 con7 con7 con7" minmax(10em, auto)
-    
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "cree cree cree cree cree cree cree cree cree cree cree cree" minmax(10em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "cred cred cred cred cred cred cred cred cred cred cred cred" minmax(10em, auto)
     
     }
 
